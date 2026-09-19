@@ -1,6 +1,6 @@
 # AI Real Estate CRM
 
-<p align="center"><img src="assets/architecture.svg" alt="AI Real Estate CRM architecture" width="100%"></p>
+<p align="center"><img src="assets/showcase.png" alt="AI Real Estate CRM — evidence before action" width="100%"></p>
 
 A synthetic-first reference implementation for building an AI-assisted real-estate CRM without letting historical data or a language model invent current commercial facts.
 
@@ -21,6 +21,10 @@ The core idea is simple: current evidence is a first-class object. Matching, cal
 Install dependencies, then run npm test or npm run demo.
 
 The demo contains no real people, contact details, properties or provider credentials.
+
+## System flow
+
+<p align="center"><img src="assets/architecture.svg" alt="AI Real Estate CRM architecture" width="100%"></p>
 
 ## Design principles
 
