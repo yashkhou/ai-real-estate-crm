@@ -1,5 +1,7 @@
 # AI Real Estate CRM
 
+<p align="center"><img src="assets/architecture.svg" alt="AI Real Estate CRM architecture" width="100%"></p>
+
 A synthetic-first reference implementation for building an AI-assisted real-estate CRM without letting historical data or a language model invent current commercial facts.
 
 The core idea is simple: current evidence is a first-class object. Matching, call angles and follow-up decisions only proceed when required facts are approved and inside explicit freshness windows.
