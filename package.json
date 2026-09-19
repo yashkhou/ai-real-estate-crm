@@ -1,0 +1,13 @@
+{
+  "name": "ai-real-estate-crm",
+  "version": "0.1.0",
+  "description": "Synthetic-first AI real-estate CRM reference with evidence freshness, deterministic matching and voice-agent handoff logic.",
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "npm run build && node dist/demo.js",
+    "test": "npm run build && node --test dist/tests/*.test.js"
+  },
+  "devDependencies": {"@types/node": "^26.0.0", "typescript": "^6.0.0"}
+}
